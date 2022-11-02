@@ -23,7 +23,7 @@
 
 #define WRAM_BIT 0b00000000
 
-#define _XTAL_FREQ 8000000
+//#define _XTAL_FREQ 8000000 <--- XTAL FREQ MUST BE DEFINED CORRECTLY DUE TO SLEEP RELYING ON IT FOR PROPER TIMING.
 
 const unsigned char row_offsets[] = {0x00, 0x40, 0x14, 0x54};
 
